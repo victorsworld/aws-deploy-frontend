@@ -8,13 +8,14 @@ const Axios = axios.create({
 export default Axios;
 
 
-// for above you need below
+// for above Axios.js you need 
+// either .env or package.json below
 //
 // .env
-// REACT_APP_AXIOS = 'development'  <-- change to 'production'
+// REACT_APP_AXIOS = 'development'  <-- change to 'production' on the instance
 // PORT=3000   <--- if you want React to run on a different port
-//
-// package.json
+//          -or-
+// package.json (currently in use)
 // "start": "REACT_APP_AXIOS='production' react-scripts start",
 // "dev": "REACT_APP_AXIOS='development' react-scripts start"
 //
